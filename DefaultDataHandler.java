@@ -169,6 +169,7 @@ public class DefaultDataHandler implements DataHandler {
         return affectedRows;
     }
 
+
     /**
      * insert into record[idx(tbname)] using table tags(record[idx(t1)]) (ts, f1, f2, f3) values(record[idx(ts)], record[idx(f1)], )
      * record[idx(tbname)] using table tags(record[idx(t1)]) (ts, f1, f2, f3) values(record[idx(ts)], record[idx(f1)], )

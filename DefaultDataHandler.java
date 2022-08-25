@@ -282,6 +282,7 @@ public class DefaultDataHandler implements DataHandler {
         }
     }
 
+
     /**
      * table: ["stb1"], column: ["ts", "f1", "f2", "t1"]
      * data: [ts, f1, f2, f3, t1, t2] tbColumn: [ts, f1, f2, t1] => schemaless: stb1,t1=t1 f1=f1,f2=f2 ts

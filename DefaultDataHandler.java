@@ -20,7 +20,6 @@ import java.util.stream.Collectors;
 
 public class DefaultDataHandler implements DataHandler {
     private static final Logger LOG = LoggerFactory.getLogger(DefaultDataHandler.class);
-
     private final TaskPluginCollector taskPluginCollector;
     private String username;
     private String password;
